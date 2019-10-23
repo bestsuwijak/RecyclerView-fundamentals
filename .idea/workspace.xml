@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868b1834-d92f-4c13-915e-178e1fd78731" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/text_item_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameOverFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameOverFragment.kt" afterDir="false" />
@@ -51,10 +51,10 @@
       <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/gradlew" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sleep_tracker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sleep_tracker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/Util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/Util.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/text_item_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/text_item_view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TrackMySleepQuality-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TrackMySleepQuality-Starter/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TrackMySleepQuality-Starter/app/src/androidTest/java/com/example/android/trackmysleepquality/SleepDatabaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../TrackMySleepQuality-Starter/app/src/androidTest/java/com/example/android/trackmysleepquality/SleepDatabaseTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TrackMySleepQuality-Starter/app/src/main/java/com/example/android/trackmysleepquality/Util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../TrackMySleepQuality-Starter/app/src/main/java/com/example/android/trackmysleepquality/Util.kt" afterDir="false" />
@@ -114,22 +114,56 @@
           <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/text_item_view.xml">
           <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/Util.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="144" selection-start-line="144" selection-end-line="144" />
+              <folding>
+                <element signature="e#0#615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="e#62#308#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_sleep_tracker.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/text_item_view.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/Util.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" />
       </list>
     </option>
   </component>
@@ -172,6 +206,13 @@
             <path>
               <item name="RecyclerViewFundamentals-Starter" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="trackmysleepquality" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="sleeptracker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerViewFundamentals-Starter" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
@@ -194,6 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="D:/Program/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
@@ -287,8 +329,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="884" y="0" width="1043" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.23194303" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.23194303" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -303,7 +346,7 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5010941" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Build" sideWeight="0.4989059" weight="0.32932165" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
@@ -311,6 +354,7 @@
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Preview" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -348,6 +392,26 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/text_item_view.xml">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/Util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="e#0#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#62#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
